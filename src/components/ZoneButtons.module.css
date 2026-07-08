@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding: 0.9rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  flex: 1 1 auto;
+  min-width: 100px;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-text);
+  background-color: #bdbabc;
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease,
+    border-color 0.15s ease, transform 0.1s ease;
+}
+
+.button:hover {
+  background-color: #e6e8ef;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.active {
+  background-color: var(--color-text);
+  color: #fff;
+  border-color: var(--color-text);
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* permite cambiar el tamaño ajustando --zone-icon-size en el contenedor o :root */
+  width: var(--zone-icon-size, 1.75rem);
+  height: var(--zone-icon-size, 1.75rem);
+  border-radius: 999px;
+  font-size: calc(var(--zone-icon-size, 1.75rem) * 0.56);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.label {
+  line-height: 1;
+}
+
+@media (max-width: 480px) {
+  .container {
+    gap: 0.4rem;
+    padding: 0.7rem;
+  }
+
+  .button {
+    min-width: 0;
+    padding: 0.55rem 0.5rem;
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,37 @@
+:root {
+  --color-sol: #f4a300;
+  --color-cerezo: #e85d8a;
+  --color-arbolada: #4caf7d;
+  --color-unidad: #4a7fe8;
+
+  --color-zadankai: #d64545;
+  --color-shakubuku: #2f6fed;
+
+  --color-bg: #f6f7fb;
+  --color-text: #1f2430;
+  --color-border: #dfe3ea;
+
+  --radius: 10px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+button {
+  font-family: inherit;
+}

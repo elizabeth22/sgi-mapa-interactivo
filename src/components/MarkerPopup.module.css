@@ -1,0 +1,38 @@
+.popup {
+  min-width: 180px;
+  font-size: 0.9rem;
+}
+
+.title {
+  margin: 0 0 0.2rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.tipo {
+  margin: 0 0 0.3rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.direccion {
+  margin: 0 0 0.6rem;
+  color: #444;
+  line-height: 1.3;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.4rem 0.7rem;
+  background-color: var(--color-shakubuku);
+  color: #fff!important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: background-color 0.15s ease;
+}
+
+.link:hover {
+  background-color: #1f57c7;
+}
