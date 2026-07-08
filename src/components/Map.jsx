@@ -6,12 +6,12 @@ import { TIPOS, ZONE_META, ZONE_TIPO_COLORS } from '../data/locations.js'
 import styles from './Map.module.css'
 
 const DEFAULT_CENTER = [18.5036, -88.3055]
-const DEFAULT_ZOOM = 13
+const DEFAULT_ZOOM = 15
 
 // Ajusta estos valores para cambiar el tamaño del icono del marcador en el mapa.
 // `scale` multiplica las dimensiones base. Usa valores como 0.9, 1, 1.4, etc.
 const MARKER_SIZES = {
-  scale: 1.4, // modifica este número para agrandar/reducir todos los marcadores
+  scale: 1.8, // modifica este número para agrandar/reducir todos los marcadores
   containerWidth: 34,
   containerHeight: 38,
   pinWidth: 24,

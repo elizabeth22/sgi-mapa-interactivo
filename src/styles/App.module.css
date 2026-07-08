@@ -7,13 +7,13 @@
 }
 
 .header {
-  padding: 0.8rem 1rem 0;
+  padding: 1.2rem 1rem 1rem;
   background-color: #fff;
 }
 
 .title {
   margin: 0 0 0.6rem;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   font-weight: 700;
   text-align: center;
   color: rgb(0, 0, 92);
@@ -21,7 +21,7 @@
 
 .subtitle {
   margin: 0 0 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
   font-weight: normal;
   font-style: italic;

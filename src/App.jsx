@@ -23,9 +23,9 @@ function App() {
     <div className={styles.app}>
       <header className={styles.header}>
         <h1 className={styles.title}>Encuentra tu Zona de Reunión Más Cercana</h1>
-        <h3 className={styles.subtitle}>
+        <h4 className={styles.subtitle}>
           Cada reunión es una oportunidad para fortalecer tu práctica, compartir experiencias e inspirarte junto a otras personas. Encuentra la ubicación más cercana y acompáñanos.
-        </h3>
+        </h4>
       </header>
 
       <ZoneButtons
